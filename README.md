@@ -20,11 +20,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ### Further resources
 
-There is homepage here:
+There is homepage, which contains a more detailed description of Occam as well as links to downloads, tools, etc:
 
 http://djalbat.com/occam
-
-This contains a more detailed description of Occam as well as links to downloads, tools, etc.
 
 ### Acknowledgements
 
