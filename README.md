@@ -28,7 +28,7 @@ There is a [homepage](http://djalbat.com/occam), which contains a more detailed 
 
 * Colours are courtesy of Chirag Mehta's [Name that Colour](http://chir.ag/projects/name-that-color/).
 
-The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
+* The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
 ## Contact
 
