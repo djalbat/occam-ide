@@ -20,23 +20,15 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ### Further resources
 
-There is homepage, which contains a more detailed description of Occam as well as links to downloads, tools, etc:
-
-http://djalbat.com/occam
+There is a [homepage](http://djalbat.com/occam), which contains a more detailed description of Occam as well as links to downloads, tools, etc.
 
 ### Acknowledgements
 
-The syntax colouring is based on the Monokai theme:
+* The syntax colouring is based on the [Monokai](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme) theme.
 
-http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme
+* Colours are courtesy of Chirag Mehta's [Name that Colour](http://chir.ag/projects/name-that-color/).
 
-Colours are courtesy of Chirag Mehta's "Name that Colour":
-
-http://chir.ag/projects/name-that-color/
-
-The logo was converted to SVG format with Peter Selinger's Potrace:
-
-http://potrace.sourceforge.net/
+The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
 ## Contact
 
