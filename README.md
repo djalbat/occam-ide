@@ -2,7 +2,7 @@
 
 The Occam Proof Assistant.
 
-## License
+### License
 
 Copyright 2016-2018 James Smith
 
@@ -14,7 +14,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ### Terms
 
-* The majority of the projects of which Occam is comprised are open source software, but Occam itself is not.
+* The majority of the projects of which Occam is comprised are open source, but Occam itself is not.
 * You cannot re-use the source code for any reason unless directly from the aforementioned open source projects.
 * It is to be used *only for individual use and if not for profit*, otherwise you must contact the author.
 
@@ -26,7 +26,7 @@ http://djalbat.com/occam
 
 This contains a more detailed description of Occam as well as links to downloads, tools, etc.
 
-## Acknowledgements
+### Acknowledgements
 
 The syntax colouring is based on the Monokai theme:
 
