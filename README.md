@@ -14,17 +14,17 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ### Terms
 
-* Whilst the majority of the projects of which Occam is comprised are free and open source software, Occam itself is not.
-* It is to be used *only for individual use and if not for profit*, otherwise you must contact the author. 
+* The majority of the projects of which Occam is comprised are open source software, but Occam itself is not.
 * You cannot re-use the source code for any reason unless directly from the aforementioned open source projects.
+* It is to be used *only for individual use and if not for profit*, otherwise you must contact the author.
 
 ### Further resources
 
-There is homepage, here:
+There is homepage here:
 
-http://djablat.com/occam
+http://djalbat.com/occam
 
-This contains a more detailed description of Occam and has links to downloads, tools, etc.
+This contains a more detailed description of Occam as well as links to downloads, tools, etc.
 
 ## Acknowledgements
 
