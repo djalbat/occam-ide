@@ -32,5 +32,5 @@ There is a [homepage](http://djalbat.com/occam), which contains a more detailed 
 
 ## Contact
 
-* jecs@imperial.ac.uk
+* james.smith@openmathematics.org
 * http://djalbat.com
