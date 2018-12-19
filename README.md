@@ -1,8 +1,6 @@
 # Occam
 
-The Occam Proof Assistant.
-
-### License
+## License
 
 Copyright 2016-2018 James Smith
 
@@ -12,17 +10,13 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-### Terms
+## Terms
 
 * The majority of the projects of which Occam is comprised are open source, but Occam itself is not.
 * You cannot re-use the source code for any reason unless directly from the aforementioned open source projects.
 * It is to be used *only for individual use and if not for profit*, otherwise you must contact the author.
 
-### Further resources
-
-There is a [homepage](http://djalbat.com/occam), which contains a more detailed description of Occam as well as links to downloads, tools, etc.
-
-### Acknowledgements
+## Acknowledgements
 
 * The syntax colouring is based on the [Monokai](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme) theme.
 
