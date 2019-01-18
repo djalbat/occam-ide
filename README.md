@@ -1,5 +1,11 @@
 # Occam
 
+### Contents
+
+- [License](#license)
+- [Terms](#terms)
+- [Contact](#contact)
+
 ## License
 
 Copyright 2016-2018 James Smith
@@ -15,14 +21,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
 * The majority of the projects of which Occam is comprised are open source, but Occam itself is not.
 * You cannot re-use the source code for any reason unless directly from the aforementioned open source projects.
 * It is to be used *only for individual use and if not for profit*, otherwise you must contact the author.
-
-## Acknowledgements
-
-* The syntax colouring is based on the [Monokai](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme) theme.
-
-* Colours are courtesy of Chirag Mehta's [Name that Colour](http://chir.ag/projects/name-that-color/).
-
-* The logo was converted to SVG format with Peter Selinger's [Potrace](http://potrace.sourceforge.net/).
 
 ## Contact
 
