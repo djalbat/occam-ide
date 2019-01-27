@@ -8,7 +8,7 @@
 
 ## License
 
-Copyright 2016-2018 James Smith
+Copyright 2016-2019 James Smith
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this software except in compliance with the License and subject to the terms laid out after this notice. A copy of the License can be found at the following URL:
 
