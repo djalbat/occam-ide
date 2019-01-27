@@ -1,5 +1,7 @@
 # Occam
 
+A formal, automated domain of reasoning.
+
 ### Contents
 
 - [License](#license)
