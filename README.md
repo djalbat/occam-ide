@@ -20,9 +20,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ## Terms
 
+* Occam can be used *only for individual use and if not for profit*, otherwise you must contact the author.
 * The majority of the projects of which Occam is comprised are open source, but Occam itself is not.
 * You cannot re-use the source code for any reason unless directly from the aforementioned open source projects.
-* It is to be used *only for individual use and if not for profit*, otherwise you must contact the author.
 
 ## Contact
 
