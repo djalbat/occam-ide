@@ -26,5 +26,4 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ## Contact
 
-* james.smith@openmathematics.org
-* http://djalbat.com
+* james.smith@djalbat.com
