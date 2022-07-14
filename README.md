@@ -4,7 +4,7 @@ A formal, automated domain of reasoning.
 
 ### Contents
 
-- [Road map](#road_map)
+- [Road map](#road-map)
 - [Licenses](#licenses)
 - [Terms](#terms)
 - [Contact](#contact)
