@@ -21,11 +21,11 @@ This road map summarises the features, and fixes, considered necessary for Occam
 
 4. **Finish the session functionality** Broken since moving the concurrency server to a lambda, this can be fixed by using Redis rather than storing shared documents in memory. The session pane will also need to be altered along much the same lines as the projects pane. There are also bugs relating to leaving sessions and selection timeouts that need to be fixed.
 
-5. **Add worker threads for custom grammars** Currently combined custom grammars are re-calculated whenever non-trivial changes are made to the BNF or lexical pattern. Whilst the custom grammars functionality is surprisingly fast, updating a combined custom grammar on nearly every key press does interfere with the user experience. So these calculations can be carried out in a worker thread. This could also pave the way for verification to be integrated with the IDE, too.
+5. **Add worker threads for custom grammars** Currently combined custom grammars are re-calculated whenever non-trivial changes are made to BNF or lexical pattern files. Whilst the custom grammars functionality is gratifyingly fast, re-calculating on nearly every key press nonetheless interferes a little with the user experience. So these calculations can be carried out in a worker thread. This could also pave the way for verification to be integrated with the IDE.
 
-6. **Finish the verification** This includes saving contexts to `.occ` files. A hash can be used to see whether changes have been made to source files. A complete solution would also include publishing to the Open Mathematics website with semantic versioning.
+6. **Finish the verification** This includes saving contexts to `.occ` files. Hashes can be used to test whether changes have been made to source files. A complete solution would also include publishing to the Open Mathematics website with semantic versioning.
 
-There is no particular order and some items, for example the first, can be considered as desirable rather than strictly necessary. The last time can be expended considerably but perhaps a first goal would be just to get verification working in memory, so to speak. 
+There is no particular order and some items, for example the first, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak. 
 
 
 
