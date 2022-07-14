@@ -11,15 +11,15 @@ A formal, automated domain of reasoning.
 
 ## Road map
 
-This road map summarises the features, and fixes, considered necessary for Occam to become a usable system, in terms of both the software and the theory behind it. It covers not just the IDE but also the verifier and the Open Mathematics website.
+This road map summarises the features, and fixes, considered necessary for Occam to become a usable system, in terms of both the software and the theory behind it. It covers not just the IDE but also the verifier and the Open Mathematics website. There is no particular order and some items could be considered as desirable rather than strictly necessary.
 
 1. **Editing** Add support for multiple cursors, folding and multiline indentation. This entails, amongst other things, overriding the default undo and redo functionality, which should fix the notorious 'Cmd-A' bug. Support for the command key on MacOS will be dropped, in fact, including menu shortcuts in the desktop IDE.
 
-2. **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, which turns out to be surprisingly complex. Better to extend the existing algorithm. Write a short paper. Also, test the other graph algorithms. 
+2. **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
 
-3. **Projects pane improvements** Add functionality to rename existing file and directories as well as add new ones. This requires entries to be selectable and a redesign of the projects pane to include a bar with the requisite icons.
+3. **Projects pane improvements** Add functionality to rename existing files and directories as well as add new ones. This requires entries in the explorer to be selectable as well as a redesign of the projects pane to include a bar with the requisite icons.
 
-4. **Finish the session functionality** Broken since moving the concurrency server to a lambda, this can be fixed by using Redis rather than storing shared documents in memory. The session pane will also need to be reorganised along much the same lines as the projects pane. There are also bugs relating to leaving sessions and selection timeouts that need to be fixed.
+4. **Finish the session functionality** Broken since moving the concurrency server to a lambda, this can be fixed by using Redis rather than storing shared documents in memory. The session pane will also need to be altered along much the same lines as the projects pane. There are also bugs relating to leaving sessions and selection timeouts that need to be fixed.
 
 
 ## Licenses
