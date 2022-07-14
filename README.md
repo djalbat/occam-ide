@@ -11,7 +11,7 @@ A formal, automated domain of reasoning.
 
 ## Road map
 
-This road map summarises the features, and fixes, considered necessary for Occam to become a usable system, in terms of both the software and the theory behind it. It covers not just the IDE but also the verifier and the Open Mathematics website. There is no particular order and some items could be considered as desirable rather than strictly necessary.
+This road map summarises the features, and fixes, considered necessary for Occam to become a usable system, in terms of both the software and the theory behind it. It covers not just the IDE but also the verifier and the Open Mathematics website.
 
 1. **Editing** Add support for multiple cursors, folding and multiline indentation. This entails, amongst other things, overriding the default undo and redo functionality, which should fix the notorious 'Cmd-A' bug. Support for the command key on MacOS will be dropped, in fact, including menu shortcuts in the desktop IDE.
 
@@ -20,6 +20,14 @@ This road map summarises the features, and fixes, considered necessary for Occam
 3. **Projects pane improvements** Add functionality to rename existing files and directories as well as add new ones. This requires entries in the explorer to be selectable as well as a redesign of the projects pane to include a bar with the requisite icons.
 
 4. **Finish the session functionality** Broken since moving the concurrency server to a lambda, this can be fixed by using Redis rather than storing shared documents in memory. The session pane will also need to be altered along much the same lines as the projects pane. There are also bugs relating to leaving sessions and selection timeouts that need to be fixed.
+
+5. **Add worker threads for custom grammars** Currently combined custom grammars are re-calculated whenever non-trivial changes are made to the BNF or lexical pattern. Whilst the custom grammars functionality is surprisingly fast, updating a combined custom grammar on nearly every key press does interfere with the user experience. So these calculations can be carried out in a worker thread. This could also pave the way for verification to be integrated with the IDE, too.
+
+6. **Finish the verification** This includes saving contexts to `.occ` files. A hash can be used to see whether changes have been made to source files. A complete solution would also include publishing to the Open Mathematics website with semantic versioning.
+
+There is no particular order and some items, for example the first, can be considered as desirable rather than strictly necessary. The last time can be expended considerably but perhaps a first goal would be just to get verification working in memory, so to speak. 
+
+
 
 
 ## Licenses
