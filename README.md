@@ -27,7 +27,7 @@ This road map summarises the features, and fixes, considered necessary for Occam
 
 7. **Worker threads for custom grammars** Currently combined custom grammars are re-calculated whenever non-trivial changes are made to BNF or lexical pattern files. Whilst the custom grammars functionality is gratifyingly fast, re-calculating on nearly every key press nonetheless interferes a little with the user experience. So these calculations can be carried out in a worker thread. This could also pave the way for verification to be integrated with the IDE.
 
-There is no particular order and some items, for example the first, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak. 
+There is no particular order and some items, for example editing, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak. 
 
 
 
