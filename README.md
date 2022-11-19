@@ -17,7 +17,7 @@ This road map summarises the features, and fixes, considered necessary for Occam
 
 2. **Sessions** Broken since moving the concurrency server to a lambda, this can be fixed by using Redis rather than storing shared documents in memory. The session pane will also need to be altered along much the same lines as the projects pane. There are also bugs relating to leaving sessions and selection timeouts that need to be fixed.
 
-3. **Verification** This includes saving contexts to `.occ` files. Hashes can be used to test whether changes have been made to source files. A complete solution would also include publishing to the Open Mathematics website with semantic versioning.
+3. **Verification** Halfway to completiion, with verification when publishing already done. A more or less complete verifier needs to verify not just at meta level. There also needs to be some improvement in the indexing. An acid test would be verifying induction, both the proof of its rule and its application.
 
 4. **Projects pane** Add functionality to rename existing files and directories as well as add new ones. This requires entries in the explorer to be selectable as well as a redesign of the projects pane to include a bar with the requisite icons.
 
