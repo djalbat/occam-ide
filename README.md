@@ -25,10 +25,9 @@ This road map summarises the features, and fixes, considered necessary for Occam
 
 6. **Worker threads for custom grammars** Currently combined custom grammars are re-calculated whenever non-trivial changes are made to BNF or lexical pattern files. Whilst the custom grammars functionality is gratifyingly fast, re-calculating on nearly every key press nonetheless interferes a little with the user experience. So these calculations can be carried out in a worker thread. This could also pave the way for verification to be integrated with the IDE.
 
-There is no particular order and some items, for example editing, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak. 
+7. **Rewrite the left recursion elimination paper** Hardly a necessity. However, the current paper is now woefully out of date and, besides, the exercise will afford the chance for one last critical evaluation of the algorithm. Whilst there are no certainties, the algorithm is too complex for a correctness proof, for example, nonetheless it would be good to at least try to put this one to bed.
 
-
-
+There is no particular order and some items, for example editing, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak.
 
 ## Licenses
 
