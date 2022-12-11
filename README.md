@@ -19,11 +19,11 @@ This road map summarises the features, and fixes, considered necessary for Occam
 
 3. **Verification** Halfway to completiion, with verification when publishing already done. A more or less complete verifier should verify not just at the meta level. An acid test would be verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd. 
 
-4. **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work with the verifier, in particular substitution, can be leveraged here. A likely side effect of this work will be the ditching of overlay tokens, which will simplify things considerably. This work will be related to the rendering changes as well.
+4. **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work with the verifier, in particular substitution, can be leveraged here. A likely side effect of this work will be the ditching of overlay tokens, which will simplify things considerably. This work relates to the rendering changes as well.
 
 5. **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
 
-6. **Rewrite the left recursion elimination paper** Hardly a necessity. However, the current paper is now woefully out of date and, besides, the exercise will afford the chance for one last critical evaluation of the algorithm. Whilst there are no certainties, the algorithm is too complex for a correctness proof, for example, nonetheless it would be good to at least try to put this one to bed.
+6. **Rewrite the left recursion elimination paper** The current paper is now woefully out of date and, besides, the exercise will afford the chance for one last critical evaluation of the algorithm.
 
 There is no particular order and some items, for example editing, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak.
 
