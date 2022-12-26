@@ -15,15 +15,13 @@ This road map summarises the features, and fixes, considered necessary for Occam
 
 1. **Editing** Add support for multiple cursors, folding, multiline indentation and streamlined comments. This entails, amongst other things, overriding the default undo and redo functionality. The is also the possibility to improve the user experience for larger documents by incremental rendering. Finally, there still remains a problem with deferred events.
 
-2. **Sessions** Broken since moving the concurrency server to a lambda, this can be fixed by using Redis rather than storing shared documents in memory. There are also bugs relating to leaving sessions and selection timeouts that need to be fixed. Hopefully Redis' logging functionality, whatever it turns out to be, with help with this.
+2. **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work with the verifier, in particular substitution, can be leveraged here. A likely side effect of this work will be the ditching of overlay tokens, which will simplify things considerably. This work relates to the rendering changes as well.
 
-3. **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work with the verifier, in particular substitution, can be leveraged here. A likely side effect of this work will be the ditching of overlay tokens, which will simplify things considerably. This work relates to the rendering changes as well.
+3. **Verification** Halfway to completiion, with verification when publishing already done. A more or less complete verifier should verify not just at the meta level. An acid test would be verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd.
 
-4. **Verification** Halfway to completiion, with verification when publishing already done. A more or less complete verifier should verify not just at the meta level. An acid test would be verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd.
+4. **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
 
-5. **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
-
-6. **Rewrite the left recursion elimination paper** The current paper is now woefully out of date and, besides, the exercise will afford the chance for one last critical evaluation of the algorithm.
+5. **Rewrite the left recursion elimination paper** The current paper is now woefully out of date and, besides, the exercise will afford the chance for one last critical evaluation of the algorithm.
 
 There is no particular order and some items, for example editing, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak.
 
