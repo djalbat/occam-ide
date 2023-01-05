@@ -5,7 +5,7 @@ A formal, automated domain of reasoning.
 ### Contents
 
 - [Road map](#road-map)
-- [Licenses](#licenses)
+- [License](#license)
 - [Contact](#contact)
 
 ## Road map
