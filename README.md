@@ -27,7 +27,7 @@ There is no particular order and some items, for example editing, can be conside
 
 ## Licenses
 
-Copyright 2016-2019 James Smith
+Copyright 2016-2023 James Smith
 
 Licensed under the Apache License, Version 2.0 and Anti-996 License (the "Licenses"); you may not use this software except in compliance with the Licenses and subject to the terms laid out after this notice. A copy of the Apache License can be found at the following URL:
 
@@ -37,9 +37,9 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 ## Terms
 
-* Occam can be used *only for individual use and if not for profit*, otherwise you must contact the author.
-* The majority of the projects of which Occam is comprised are open source, but Occam itself is not.
-* You cannot re-use the source code for any reason unless directly from the aforementioned open source projects.
+* The Occam IDE is **not** free software.
+* It can be used *only for personal use and if not for profit*, otherwise you must contact the author and arrange payment.
+* You cannot re-use the source code for any reason, even if only for personal use and if not for profit; or even if you have paid to use it otherwise.
 
 ## Contact
 
