@@ -6,7 +6,6 @@ A formal, automated domain of reasoning.
 
 - [Road map](#road-map)
 - [Licenses](#licenses)
-- [Terms](#terms)
 - [Contact](#contact)
 
 ## Road map
@@ -25,7 +24,7 @@ This road map summarises the features, and fixes, considered necessary for Occam
 
 There is no particular order and some items, for example editing, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak.
 
-## Licenses
+## License
 
 Copyright 2016-2023 James Smith
 
@@ -35,7 +34,7 @@ Licensed under the Apache License, Version 2.0 and Anti-996 License (the "Licens
 
 Unless required by applicable law or agreed to in writing, software distributed under the Licenses is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Licenses for the specific language governing permissions and limitations under the Licenses.
 
-## Terms
+### Terms
 
 * The Occam IDE is **not** free software.
 * It can be used *only for personal use and if not for profit*, otherwise you must contact the author and arrange payment.
