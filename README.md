@@ -28,9 +28,9 @@ There is no particular order and some items, for example editing, can be conside
 
 Copyright 2016-2023 James Smith
 
-Licensed under the Apache License, Version 2.0 and Anti-996 License (the "Licenses"); you may not use this software except in compliance with the Licenses and subject to the terms laid out after this notice. A copy of the Apache License can be found at the following URL:
+Licensed under the Apache License, Version 2.0 and Anti-996 License (collectively the "License"); you may not use this software except in compliance with the Licenses and subject to the terms laid out after this notice. A copy of the combined License can be found at the following URL:
 
-   http://www.apache.org/licenses/LICENSE-2.0
+  https://github.com/djalbat/occam/blob/master/license.txt
 
 Unless required by applicable law or agreed to in writing, software distributed under the Licenses is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the Licenses for the specific language governing permissions and limitations under the Licenses.
 
