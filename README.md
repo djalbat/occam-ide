@@ -12,7 +12,7 @@ A formal, automated domain of reasoning.
 
 This road map summarises the features, and fixes, considered necessary for Occam to become a usable system, in terms of both the software and the theory behind it. It covers not just the IDE but also the verifier and the Open Mathematics website.
 
-1. **Editing** Add support for multiple cursors, folding, multiline indentation, etc. This entails, amongst other things, overriding the default undo and redo functionality. There is also the possibility to improve the user experience for larger documents by incremental rendering. Finally, there still remains a problem with deferred events.
+1. **Editing** Add support for multiple cursors, folding, multiline indentation and so on. There is also the possibility to improve the user experience for larger documents by incremental rendering.
 
 2. **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work with the verifier, in particular substitution, can be leveraged here. A likely side effect of this work will be the ditching of overlay tokens. This work relates to the rendering changes as well.
 
