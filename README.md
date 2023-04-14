@@ -1,6 +1,6 @@
-# Occam
+# Occam-IDE
 
-A formal, automated domain of reasoning.
+Occam's IDE.
 
 ### Contents
 
