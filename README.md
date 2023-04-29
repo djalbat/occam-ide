@@ -16,7 +16,7 @@ This road map summarises the remaining features considered necessary for Occam t
 
 2 **Verification** A more or less complete verifier should verify not just at the meta level. An acid test would be verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd.
 
-3 **Rewrite the left recursion elimination paper** The current paper is now woefully out of date and, besides, the exercise will afford the chance for another critical evaluation of the algorithm.
+3 **Left recursionr** The current algorithm is ill-conceived. A new algorithm will be based on a graph-theoretic approach. The corresonding paper will then require an almost complete rewrite.
 
 4 **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
 
