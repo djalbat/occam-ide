@@ -10,17 +10,15 @@ Occam's IDE.
 
 ## Road map
 
-This road map summarises the features, and fixes, considered necessary for Occam to become a usable system, in terms of both the software and the theory behind it. It covers not just the IDE but also the verifier and the Open Mathematics website.
+This road map summarises the remaining features considered necessary for Occam to become a usable system. It covers not just the IDE but also the verifier and the Open Mathematics website.
 
-1. **Editing** Add support for multiple cursors, folding, multiline indentation and so on. There is also the possibility to improve the user experience for larger documents by incremental rendering.
+1**Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work on the verifier, in particular substitution, could be leveraged.
 
-2. **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work with the verifier, in particular substitution, can be leveraged here. A likely side effect of this work will be the ditching of overlay tokens. This work relates to the rendering changes as well.
+2**Verification** A more or less complete verifier should verify not just at the meta level. An acid test would be verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd.
 
-3. **Verification** Halfway to completiion, with verification when publishing already done. A more or less complete verifier should verify not just at the meta level. An acid test would be verifying first order logic and verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd.
+3**Rewrite the left recursion elimination paper** The current paper is now woefully out of date and, besides, the exercise will afford the chance for another critical evaluation of the algorithm.
 
-4. **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
-
-5. **Rewrite the left recursion elimination paper** The current paper is now woefully out of date and, besides, the exercise will afford the chance for another critical evaluation of the algorithm.
+4**Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
 
 There is no particular order and some items, for example editing, can be considered as desirable rather than strictly necessary. The last item can be expended considerably but perhaps a first goal would be to just get verification working in memory, so to speak.
 
