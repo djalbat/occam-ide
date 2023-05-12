@@ -12,13 +12,11 @@ Occam's IDE.
 
 This road map summarises the remaining features considered necessary for Occam to become a usable system. It covers not just the IDE but also the verifier and the Open Mathematics website.
 
-1 **Left recursion** The paper requires a rewrite.
+1 **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work on the verifier, in particular substitution, could be leveraged.
 
-2 **Indexing** This needs to be improved in order to support labels and references with terms. Some of the recent work on the verifier, in particular substitution, could be leveraged.
+2 **Verification** A more or less complete verifier should verify not just at the meta level. An acid test would be verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd.
 
-3 **Verification** A more or less complete verifier should verify not just at the meta level. An acid test would be verifying induction, both the proof of its rule and its application to, say, a proof that all natural numbers are either even on odd.
-
-4 **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
+3 **Directed graphs** Devise an algorithm based on the Pearce-Kelly algorithm that supports cycles. The current implementation tacks cyclic edges onto the side of the aforementioned algorithm, and is surprisingly complicated. Better to extend the existing algorithm and write a short paper. Also, test the other graph algorithms. 
 
 Once this roadmap is complete the focus will be on CNL and Highmark.
 
