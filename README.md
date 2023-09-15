@@ -1,4 +1,4 @@
-# Occam-IDE
+# Occam IDE
 
 Occam's IDE.
 
